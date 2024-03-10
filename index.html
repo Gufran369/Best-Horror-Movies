@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Best Horror Movies</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script>
+      $(document).ready(function () {
+        $("i").on("click", function () {
+          $("ul").toggleClass("ul_show");
+          $("section").toggleClass("slide_image");
+        });
+        $("li").on("click", function () {
+          $(this).addClass("active").siblings().removeClass("active");
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <ul>
+      <li><a class="active" href="#Home">Home</a></li>
+      <li><a href="#Nightmare">A Nightmare</a></li>
+      <li><a href="#Get-Out">Get-Out</a></li>
+      <li><a href="#Hereditary">Hereditary</a></li>
+      <li><a href="#Psycho">Psycho</a></li>
+      <li><a href="#Rosemary">Rosemary's Baby</a></li>
+      <li><a href="#Babadook">The Babadook</a></li>
+      <li><a href="#Shining">The Shining</a></li>
+      <li><a class="exorcist" href="#Exorcist">The Exorcist</a></li>
+    </ul>
+    <section>
+      <i
+        class="fa fa-bars"
+        style="
+          font-size: 60px;
+          color: lightblue;
+          text-shadow: 2px 2px 4px #000000;
+        "
+      ></i>
+
+      <div id="Home" class="sec-1"></div>
+
+      <h1 class="Home">About</h1>
+      <p>
+        Horror movies have long held a unique place in cinema, captivating
+        audiences with their ability to evoke fear, suspense, and unease. Beyond
+        mere entertainment, horror films serve as a reflection of societal
+        fears, anxieties, and taboos, providing a platform to explore complex
+        themes and human psychology. Through clever storytelling, atmospheric
+        cinematography, and innovative techniques, filmmakers push the
+        boundaries of the genre, constantly reinventing and redefining what
+        constitutes horror. Moreover, horror movies often serve as a vehicle for
+        social commentary, addressing issues such as gender, race, and class
+        dynamics in provocative and insightful ways. Whether through
+        supernatural encounters, psychological torment, or visceral gore, horror
+        films continue to intrigue and provoke audiences, leaving a lasting
+        impression on the cinematic landscape.
+      </p>
+
+      <h1 id="Nightmare">8. A Nightmare on Elm Street (1984):</h1>
+      <div class="sec-2"></div>
+      <p>
+        Directed by Wes Craven, "A Nightmare on Elm Street" is a classic slasher
+        film that introduced audiences to the iconic villain Freddy Krueger. The
+        story follows a group of teenagers who are terrorized in their dreams by
+        Krueger, a vengeful spirit seeking revenge for his own death. As the
+        line between dreams and reality blurs, the teenagers must find a way to
+        defeat Krueger before they become his next victims. "A Nightmare on Elm
+        Street" is lauded for its innovative premise, imaginative kills, and
+        enduring cultural impact on the horror genre.
+      </p>
+
+      <h1 id="Get-Out">7. Get Out (2017):</h1>
+      <div class="sec-3"></div>
+      <p>
+        Jordan Peele's "Get Out" is a groundbreaking horror film that deftly
+        blends social commentary with visceral thrills. The story follows Chris
+        Washington, a young African American man who visits his white
+        girlfriend's family estate, only to uncover disturbing secrets lurking
+        beneath the surface. "Get Out" explores themes of race, identity, and
+        cultural appropriation, offering a chilling critique of contemporary
+        society. Peele's sharp writing, inventive direction, and stellar
+        performances make "Get Out" a standout entry in the horror genre.
+      </p>
+
+      <h1 id="Hereditary">6. Hereditary (2018):</h1>
+      <div class="sec-4"></div>
+      <p>
+        Ari Aster's "Hereditary" is a haunting exploration of grief, trauma, and
+        inherited evil. The film follows the Graham family as they grapple with
+        the aftermath of their secretive grandmother's death, uncovering dark
+        and disturbing truths about their ancestry. "Hereditary" is
+        characterized by its slow-burning tension, shocking imagery, and
+        powerhouse performances, particularly from Toni Collette as the
+        matriarch of the family. Aster's bold vision and unflinching approach to
+        horror make "Hereditary" an unforgettable and deeply unsettling
+        experience.
+      </p>
+
+      <h1 id="Psycho">5. Psycho (1960):</h1>
+      <div class="sec-5"></div>
+      <p>
+        Alfred Hitchcock's "Psycho" is a landmark in horror cinema. The film
+        follows Marion Crane, a secretary who steals money and finds herself at
+        the Bates Motel, run by the reclusive Norman Bates. What follows is a
+        twisted tale of obsession, murder, and psychological terror. "Psycho" is
+        renowned for its innovative storytelling, shocking plot twists, and
+        groundbreaking use of suspense. Hitchcock's mastery of tension and
+        atmosphere cements "Psycho" as one of the most influential horror films
+        of all time.
+      </p>
+
+      <h1 id="Rosemary">4. Rosemary's Baby (1968):</h1>
+      <div class="sec-6"></div>
+      <p>
+        Directed by Roman Polanski, "Rosemary's Baby" is a psychological horror
+        film based on the novel by Ira Levin. The story follows Rosemary
+        Woodhouse, a young pregnant woman who begins to suspect that her
+        neighbors have sinister intentions for her unborn child. As Rosemary's
+        paranoia grows, she becomes increasingly isolated and vulnerable to the
+        machinations of a cult. "Rosemary's Baby" is celebrated for its
+        slow-building tension, atmospheric direction, and Mia Farrow's
+        mesmerizing performance.
+      </p>
+
+      <h1 id="Babadook">3. The Babadook (2014):</h1>
+      <div class="sec-7"></div>
+      <p>
+        Directed by Jennifer Kent, "The Babadook" is a chilling Australian
+        horror film that explores themes of grief, motherhood, and psychological
+        terror. The story follows Amelia, a single mother struggling to raise
+        her troubled son, who becomes convinced that a sinister children's book
+        character called the Babadook is haunting them. As Amelia's grip on
+        reality begins to unravel, she must confront her darkest fears to
+        protect her son from the malevolent entity. "The Babadook" is praised
+        for its atmospheric tension, strong performances, and poignant
+        storytelling.
+      </p>
+
+      <h1 id="Shining">2. The Shining (1980):</h1>
+      <div class="sec-8"></div>
+      <p>
+        Stanley Kubrick's "The Shining" is a masterclass in psychological
+        horror. Based on Stephen King's novel, the film follows Jack Torrance, a
+        writer who takes his family to an isolated hotel for the winter. As Jack
+        descends into madness, the hotel's malevolent spirits manipulate him to
+        commit acts of violence against his family. Kubrick's meticulous
+        direction, combined with Jack Nicholson's iconic performance, creates an
+        atmosphere of dread and uncertainty that lingers long after the credits
+        roll.
+      </p>
+
+      <h1 id="Exorcist">1.The Exorcist (1973):</h1>
+      <div class="sec-9"></div>
+      <p>
+        "The Exorcist" is not just a horror movie; it's a cultural phenomenon.
+        Directed by William Friedkin and based on the novel by William Peter
+        Blatty, the film shocked audiences worldwide with its intense depiction
+        of demonic possession. The story follows Regan MacNeil, a young girl who
+        becomes possessed by a malevolent entity, leading her mother to seek the
+        help of two priests to perform an exorcism. The film's blend of
+        supernatural horror, psychological depth, and groundbreaking special
+        effects revolutionized the genre and set a new standard for cinematic
+        terror.
+      </p>
+    </section>
+  </body>
+</html>
